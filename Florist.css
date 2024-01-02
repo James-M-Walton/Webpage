@@ -1,0 +1,357 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+body
+ {
+    color:#0C0F0A;
+    background-color: #E7E6F7;
+    text-align: center;
+    font-family: 'Preahvihear', sans-serif;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ ul {
+    list-style-type:none;
+ }
+
+ li{
+   list-style-type:none;
+ }
+
+div a:hover {
+   color: rgb(196, 141, 12);
+}
+
+ .cube1
+ {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    clip-path: circle(43%);
+ }
+ 
+ .cube2
+ {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    border: #89043D solid 3px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+ }
+
+ .cube3 {
+clip-path: circle(125px);
+width: 20%;
+border-radius: 100px;
+ }
+
+ .cube4 {
+clip-path: circle(125px);
+width: 20%;
+border-radius: 100px;
+ }
+
+ .cube5 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-around;
+ }
+
+
+ .cube6 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-between;
+   border: #646536 solid 5px;
+   height: 200px;
+   clip-path: circle(50%);
+ }
+
+
+ .cube7 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-between;
+   border: #646536 solid 5px;
+   height: 200px;
+   clip-path: circle(50%);
+
+ }
+
+ .cube8 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-between;
+   border: #646536 solid 5px;
+   height: 200px;
+   clip-path: circle(50%);
+ }
+
+ .cube9 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-between;
+   border: #89043D solid 5px;
+   height: 200px;
+   clip-path: circle(50%);
+ }
+
+ .cube10 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-between; 
+   border: #89043D solid 5px;
+   height: 200px;
+   clip-path: circle(50%);
+ }
+
+ .cube11 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-between;
+   border: #89043D solid 5px;
+   height: 200px;
+   clip-path: circle(50%);
+ }
+
+ .cube12 {
+   box-sizing: border-box;
+   display: flex;
+   border: #646536 solid 5px;
+ }
+
+ .cube13 {
+   box-sizing: border-box;
+   text-align:center;
+   border: #646536 solid 5px;
+   width: 35%;
+   font-size: 60px;
+   background-color: #FFFFFF;
+ }
+
+
+ .cube16 {
+   box-sizing: border-box;
+   text-align:center;
+   border: #89043D solid 3px;
+   width: 45%;
+   font-size: 15px;
+   background-color: #FFFFFF;
+   font-family: 'Oxygen Mono', monospace;
+ }
+
+ .test {
+      box-sizing: border-box;
+      border: #89043D solid 15px;
+ }
+
+ .test2 {
+   box-sizing: border-box;
+   border: #646536 solid 15px;
+}
+
+.container {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   border: #0C0F0A  solid 5px;
+   padding-left: 10px;
+   background-color: #FFFFFF;
+   height: 80px;
+}
+
+.border1 {
+   box-sizing: border-box;
+color: purple;
+width: 300px;
+height: 9px;
+border-radius:  80px;
+text-align: center;
+font-size: 40px;
+}
+
+.border2{
+   box-sizing: border-box;
+color: purple;
+width: 300px;
+border-radius:  10px;
+text-align: right;
+font-size: 35px;
+}
+
+.border3 {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 40%;
+   align-items: center;
+}
+
+.border4 {
+   box-sizing: border-box;
+   display: flex;
+   width: 50%;
+   align-items: center;
+}
+
+.textbox {
+ display: flex;
+ width: 100%;
+ flex-direction: column;
+ align-items: center;
+}
+
+.plant1 {
+font-size: 20px;
+}
+
+.plant2 {
+   font-size: 20px;
+
+}
+
+.plant3 {
+   font-size: 20px;
+}
+
+.plant4 {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 100%;
+   align-items: center;
+}
+
+.plant5 {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+   align-items: center;
+   width: 100%;
+}
+
+.cubea {
+      box-sizing: border-box;
+      text-align:center;
+      border: #89043D solid 5px;
+      font-size: 55px;
+      background-color: #FFFFFF;
+}
+
+.cubeb {
+   box-sizing: border-box;
+   text-align:center;
+   border: #646536 solid 5px;
+   width: 40%;
+   font-size: 15px;
+   background-color: #FFFFFF;
+   font-family: 'Oxygen Mono', monospace;
+}
+
+.cubec {
+      box-sizing: border-box;
+      text-align:center;
+      border: #646536 solid 5px;
+      width: 45%;
+      font-size: 45px;
+      background-color: #FFFFFF;
+}
+
+.cubed {
+   box-sizing: border-box;
+   text-align:center;
+   border: #89043D solid 3px;
+   width: 43%;
+   font-size: 15px;
+   background-color: #FFFFFF;
+   font-family: 'Oxygen Mono', monospace;
+ }
+
+ .cubee {
+   box-sizing: border-box;
+   text-align:center;
+   border: #646536 solid 5px;
+   width: 40%;
+   font-size: 55px;
+   background-color: #FFFFFF;
+ }
+
+ .cubef {
+   box-sizing: border-box;
+   text-align:center;
+   border: #89043D solid 3px;
+   width: 40%;
+   font-size: 15px;
+   background-color: #FFFFFF;
+   font-family: 'Oxygen Mono', monospace;
+ }
+
+ .cubeg {
+   box-sizing: border-box;
+   text-align:left;
+   border: #89043D solid 3px;
+   font-size: 15px;
+   background-color: #FFFFFF;
+ }
+
+ .Socials {
+box-sizing: border-box;
+display: flex;
+ justify-content: space-evenly;
+ border: solid white;
+ border: #89043D solid;
+ background-color: #FFFFFF;
+ width: 100%;
+}
+
+.social2{
+clip-path: circle(90%);
+}
+
+.social3{
+clip-path: circle(45%);
+}
+
+.social4{
+   clip-path: circle(30%);
+}
+
+
+.social5{
+clip-path: circle(50%);
+}
+
+.fb1 {
+border: #89043D 2px;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+
+
+/* use this for background colours
+ background-color: #ffffff */
+
+
+    /* box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: red solid 3px;
+    padding-left: 10px; 
+    border-radius: 80px; */
